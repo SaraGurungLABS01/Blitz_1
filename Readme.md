@@ -8,7 +8,7 @@ Here's a detailed account of what transpired during the blitz:
 
 2) Latency Measurement: We initiated the blitz by measuring the latency of our application. It became evident that latency was indeed influenced by the geographical location of both our application and its users.
 
-3) Geographical Impact Analysis: Further investigation revealed that our "URL Shortener" was deployed in the us-east-1 region. While this was in the same state, it could be located in a different data center, affecting latency for users on the west coast.
+3) Geographical Impact Analysis: Further investigation revealed that our "URL Shortener" was deployed in the us-east-1 region, affecting latency for users on the west coast.
 
 4) Initial Latency Reading: The initial measurement showed an average latency of 40.879 milliseconds, which was not meeting Nike's expectations.
 
@@ -36,9 +36,9 @@ Regular performance monitoring and optimization are essential for addressing use
 ## Next Steps
 Our plan for the next steps includes:
 
-Continuous monitoring of application performance and adjusting CloudFront settings as needed to maintain low latency.
+1) Continuous monitoring of application performance and adjusting CloudFront settings as needed to maintain low latency.
 
-Considering other optimization techniques, such as database query optimizations or further infrastructure scaling, if necessary.
+2) Considering other optimization techniques, such as further infrastructure scaling, if necessary.
 
 ## Conclusion
 In conclusion, the latency reduction blitz successfully addressed the issue raised by Nike regarding slow webpage loading times. By implementing Amazon CloudFront as a CDN and optimizing content delivery, we significantly reduced latency and, in turn, improved the overall user experience. This initiative highlighted the importance of considering infrastructure and geographical factors when tackling latency issues.
