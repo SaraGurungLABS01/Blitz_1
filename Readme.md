@@ -44,3 +44,6 @@ Our plan for the next steps includes:
 In conclusion, the latency reduction blitz successfully addressed the issue raised by Nike regarding slow webpage loading times. By implementing Amazon CloudFront as a CDN and optimizing content delivery, we significantly reduced latency and, in turn, improved the overall user experience. This initiative highlighted the importance of considering infrastructure and geographical factors when tackling latency issues.
 
 ## Diagram
+
+![image](https://github.com/SaraGurungLABS01/Blitz_1/assets/140760966/6a255739-b6c3-4561-845c-229109338606)
+
